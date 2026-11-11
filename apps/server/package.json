@@ -1,0 +1,34 @@
+{
+  "name": "@sos/server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --port 4000",
+    "build": "next build",
+    "start": "next start --port 4000",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "curate": "tsx --env-file-if-exists=.env.local scripts/curate.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vitest": "^5.1.0"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^4.0.114",
+    "@sos/shared": "workspace:*",
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.119.0",
+    "ai": "^7.0.169",
+    "inngest": "^4.26.2",
+    "next": "^16.4.6",
+    "octokit": "^5.0.5",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "zod": "^4.6.7"
+  }
+}
