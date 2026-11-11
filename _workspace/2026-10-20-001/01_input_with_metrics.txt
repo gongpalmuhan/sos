@@ -1,0 +1,80 @@
+[정량 사전 점수 v2.0 / KatFish + post-editese baseline]
+risk_band: low  (score 0)
+genre: report
+char_count: 1034
+warning: baseline_genre_null:report->essay
+
+[지표]
+- comma_inclusion_rate: 0.15  (z=-0.66 vs report 인간 baseline)
+- comma_usage_rate: 0.21  (z=-1.28 vs report 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs report 인간 baseline)
+- comma_segment_length: 4.49  (z=+0.07 vs report 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.004  (z=-1.86 vs report 인간 baseline)
+- lexical_diversity: 0.80  (z=+2.95 vs report 인간 baseline)  ★ S1 트리거
+
+[v2.0 post-editese 보조 지표]
+- lexical_diversity_ttr: 0.797
+- lexical_density: 0.013
+- ending_diversity: 0.188
+- normalisation_score: 0.000
+- inanimate_subject_rate: 0.000
+- pronoun_density: 0.000
+- relative_clause_nesting: 1
+- double_particle_count: 0
+- progressive_aspect_rate: 0.000
+- interference_index: 0.000 (signals: none)
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+제목: SOS: 첫 오픈소스 기여 경험 인터뷰 모집
+
+설명:
+안녕하세요. TEAM SOS입니다.
+저희는 한국어 사용자가 첫 오픈소스 PR을 머지하기까지의 과정을 돕는 가이드 서비스를 만들고 있습니다.
+
+이 설문은 제품 수요나 머지율을 증명하려는 조사가 아니라, 실제로 어디에서 멈췄고 어떤 도움을 찾았는지 이해하기 위한 사용자 발견 조사입니다. 응답은 SOS 사용자 조사와 인터뷰 참여자 선정에만 사용합니다.
+
+응답은 익명으로 수집합니다. 인터뷰 또는 화면 공유 관찰에 참여하고 싶은 경우에만 마지막 문항에 연락처를 남겨주세요.
+
+1. 오픈소스 기여 경험과 가장 가까운 항목을 골라주세요.
+- 아직 한 번도 시도하지 않음
+- 시도했지만 PR을 만들기 전에 멈춤
+- PR을 제출했지만 머지된 적은 없음
+- PR이 머지된 경험이 있음
+
+2. 막혔을 때, 주로 어떤 방법으로 해결을 시도했나요?
+- GitHub·Google 검색
+- ChatGPT 등 AI 도구
+- Discord·Slack 등 커뮤니티
+- 지인·동료에게 물어보기
+
+3. 기여를 준비하거나 시도할 때, 가장 크게 막힌 단계는 무엇이었나요?
+- 참여할 저장소·이슈 찾기
+- 기존 이슈·PR·댓글의 맥락 이해
+- 개발 환경 설정
+- 영어로 질문하거나 참여 의사 전하기
+- 코드 구현
+- PR 작성 또는 리뷰 대응
+- 기타
+
+4. 기여를 멈추거나 포기하게 된 구체적인 상황을 들려주세요. 아직 시도 전이라면, 가장 망설여지는 이유를 적어주세요.
+
+5. 이슈 추천, 근거 리포트, 영어 초안, 체크리스트 중 실제 기여 시도에 도움이 될 것 같은 기능과 걱정되는 점을 함께 적어주세요.
+
+6. 30분 온라인 인터뷰 또는 화면 공유 관찰에 참여할 의향이 있나요?
+- 인터뷰와 화면 공유 관찰 모두 가능
+- 설문만 참여
+- 인터뷰만 가능
+- 아직 모르겠음
+
+7. GitHub 로그인, PR URL 연결, 기여 과정 기록에서 괜찮은 범위와 걱정되는 점이 있다면 적어주세요. (선택)
+
+8. 인터뷰 또는 화면 공유 관찰에 참여할 의향이 있다면, 연락받을 이메일 또는 오픈채팅 주소를 남겨주세요. (선택)
+[원문 끝]
